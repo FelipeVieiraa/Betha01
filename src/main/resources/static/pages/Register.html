@@ -1,0 +1,31 @@
+<div class="register-container">
+	<div class="content">
+	
+		<section>
+			<img src="assets/betha-1.png" alt="logoBetha"/>
+			
+			<h1>Cadastro</h1>
+			<p>Faça seu cadastro, para logar no sistema.</p>
+			
+			<a href="/">
+			    Fazer logon.
+			</a>
+		</section>
+
+		<form ng-submit="saveUser()">
+
+		   <input
+		       placeholder="Usuário para login"
+		       ng-model="username"
+		   />
+		   
+		   <input
+		       placeholder="Senha"
+		       ng-model="userpass"
+		   />
+		
+		    <button class="button" type="submit">Cadastrar</button>
+		</form>
+		
+	</div>
+</div>

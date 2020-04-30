@@ -1,0 +1,53 @@
+.default-container {
+  width: 100%;
+  max-width: 1180px;
+  padding: 0 30px;
+  margin: 32px auto;
+}
+
+.default-container header {
+  display: flex;
+  align-items: center;
+
+}
+
+.default-container header span {
+  font-size: 25px;
+  margin-left: 24px;
+}
+
+.default-container header img {
+  height: 70px;
+}
+
+.default-container header a {
+  width: 260px;
+  margin-left: auto;
+  margin-top: 0;
+}
+
+.default-container button {
+  height: 60px;
+  width: 60px;
+  border-radius: 4px;
+  border: 1px solid #dcdce6;
+  background: transparent;
+  margin-left: 16px;
+  transition: border-color 0.2s;
+}
+
+.default-container button:hover {
+  border-color: #999;
+}
+
+.default-container p {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #737380;
+  line-height: 32px;
+}
+
+.default-container div  {
+  margin-top: 20px;
+  width: 260px;
+}

@@ -1,0 +1,57 @@
+<div class="register-container">
+    <div class="content">
+    
+      <section>
+        <img src="assets/betha-1.png" alt="logoBetha"/>
+        
+        <h1>Cadastro de clientes</h1>
+        
+        <a href="/default">
+            voltar.
+        </a>
+      </section>
+  
+      <form ng-submit="saveClient()">
+  
+         <input
+             placeholder="Nome"
+             ng-model="clname"
+         />
+         
+         <input
+             placeholder="CPF"
+             ng-model="cpf"
+         />
+
+         <input
+             placeholder="Usuário para login"
+             ng-model="username"
+         />
+
+         <span>Endereço:<span>
+         
+         <input
+             placeholder="Rua"
+             ng-model="street"
+         />
+
+         <input
+             placeholder="Número da rua"
+             ng-model="num_street"
+         />
+
+         <input
+             placeholder="CEP"
+             ng-model="cep"
+         />
+         
+         <input
+             placeholder="Senha"
+             ng-model="userpass"
+         />
+      
+          <button class="button" type="submit">Cadastrar</button>
+      </form>
+      
+    </div>
+  </div>
